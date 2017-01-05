@@ -1,0 +1,15 @@
+@import './../public/styles/global.scss';
+
+main {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    display: block;
+    color: #fff;
+    position: relative;
+    top: 50%;
+    transform: translateY(50%);
+
+    img {
+        width: 200px;
+    }
+}
