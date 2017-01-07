@@ -10,5 +10,11 @@
         "noImplicitAny": true,
         "suppressImplicitAnyIndexErrors": true,
         "outDir": "./dist/ts/"
-    }
+    },
+
+    "exclude": [
+        "node_modules",
+        "dist",
+        "electron-angular2-starter-*"
+    ]
 }
